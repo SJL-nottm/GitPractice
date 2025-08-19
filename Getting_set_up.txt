@@ -1,0 +1,9 @@
+Getting set up with GitHub
+Stephanie Lax and Adam Taylor
+
+19/08/2025
+Adam created UoN-RECORDER/GitPractice repo
+Steph logged into GitHub 
+Steph created a new fork of the GitPractice repo (fork = copy of repo where changes can be made without affecting the original. Saved to personal account by default)
+Steph created a branch for herself
+Steph saved this text file to the new branch
