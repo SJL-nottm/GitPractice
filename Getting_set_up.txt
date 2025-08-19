@@ -6,4 +6,19 @@ Adam created UoN-RECORDER/GitPractice repo
 Steph logged into GitHub 
 Steph created a new fork of the GitPractice repo (fork = copy of repo where changes can be made without affecting the original. Saved to personal account by default)
 Steph created a branch for herself
-Steph saved this text file to the new branch
+Steph uploaded this text file to the new branch
+
+Steph still to do:
+Figure out how to sync up RStudio with GitHub - start by adding an RMarkdown document
+Figure out how to use within SDE
+Push code to relevant repos (e.g., group and consortium) once development is finished
+
+Good practice for developing code:
+Create a new branch for developing a specific feature
+Once finalised, pull it into the main branch 
+
+Good practice for writing commits:
+Check out other example histories within similar repos
+Start with a 1-liner than explains succinctly what the commit is about
+Return
+Add any length description required for further detail/understanding
