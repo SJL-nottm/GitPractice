@@ -1,30 +1,25 @@
 ---
-title: "Getting set up"
-author: "S J Lax"
+title: "Getting set up with GitHub in RStudio"
+author: "Stephanie Lax and Adam Taylor"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+19/08/2025:
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+1. Adam created `UoN-RECORDER/GitPractice` repo
+2. Steph logged into GitHub 
+3. Steph created a new fork of the GitPractice repo (**fork** = copy of repo where changes can be made without affecting the original. Saved to personal account by default)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+26/08/2025:
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+1. Adam had advised to clone the repo directly and to make changes and branch within RStudio. Otherwise, the GitHub website version can diverge from the local version if changes are not immediately pulled to the local copy.
+2. Steph cloned the repo within RStudio using `New Project > Version Control > Git` using the main URL. Please note, the main URL is different to the webpage URL (the latter contains `/tree/`). The main URL is found by clicking the green code button on the repo.
+3. Steph created a new `Steph` branch in RStudio via the purple flowchart icon in the top right of the Git window. This process automatically switched from the main to the new branch.
+4. Steph made edits to `Getting_Set_up.Rmd`, committed, and then pushed the changes.
